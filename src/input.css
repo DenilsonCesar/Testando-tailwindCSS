@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TESTE DE CONFIGURAÇÃO */
+@layer utilities  {
+    .testeclass {
+        @apply bg-gray-900;
+    }
+}
